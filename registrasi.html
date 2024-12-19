@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <!-- Header-like section -->
+    <header class="header-login-regis">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo.png" alt="Glowing" >
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="h2" >Register</h2>
+            <form id="registerForm" onsubmit="validateRegistration(event)">
+                <input type="text" id="username" placeholder="Username" class="input-field" required>
+                <input type="email" id="email" placeholder="Email" class="input-field" required>
+                <input type="password" id="password" placeholder="Password" class="input-field" required>
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+            <p>
+                Already have an account? <a href="login.html" >Login here</a>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
